@@ -7,4 +7,4 @@ tags: [resource]
 
 - [[resources/glossary|Glossary]] — 영한 용어집
 - [[resources/notation|Notation]] — 수학 표기법 컨벤션
-- [Paper Notes](/tags/paper) — `#paper` 태그가 붙은 전체 논문 노트 목록
+- [[tags/paper|Paper Notes]] — `#paper` 태그가 붙은 전체 논문 노트 목록

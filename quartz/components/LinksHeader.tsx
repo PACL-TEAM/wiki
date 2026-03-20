@@ -1,3 +1,4 @@
+import { pathToRoot, joinSegments } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 interface Options {
@@ -5,12 +6,17 @@ interface Options {
 }
 
 export default ((opts?: Options) => {
-  const LinksHeader: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+  const LinksHeader: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
     const links = opts?.links ?? {}
+    const baseDir = pathToRoot(fileData.slug!)
     return (
       <div class={`links-header ${displayClass ?? ""}`}>
         {Object.entries(links).map(([text, link]) => (
-          <a href={link} class="links-header-item" data-no-popover>
+          <a
+            href={joinSegments(baseDir, link)}
+            class="links-header-item"
+            data-no-popover
+          >
             {text}
           </a>
         ))}
