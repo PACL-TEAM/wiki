@@ -1,4 +1,4 @@
-import { pathToRoot, joinSegments } from "../util/path"
+import { resolveRelative, FullSlug } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 interface Options {
@@ -8,14 +8,12 @@ interface Options {
 export default ((opts?: Options) => {
   const LinksHeader: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
     const links = opts?.links ?? {}
-    const baseDir = pathToRoot(fileData.slug!)
     return (
       <div class={`links-header ${displayClass ?? ""}`}>
-        {Object.entries(links).map(([text, link]) => (
+        {Object.entries(links).map(([text, slug]) => (
           <a
-            href={joinSegments(baseDir, link)}
+            href={resolveRelative(fileData.slug!, slug as FullSlug)}
             class="links-header-item"
-            data-no-popover
           >
             {text}
           </a>

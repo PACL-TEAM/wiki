@@ -2,68 +2,68 @@
 <rss version="2.0">
     <channel>
       <title>PACL Wiki</title>
-      <link>https://pacl-wiki.github.io</link>
+      <link>https://pacl-team.github.io/wiki</link>
       <description>최근 10 건 on PACL Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Resources</title>
+    <link>https://pacl-team.github.io/wiki/resources/</link>
+    <guid>https://pacl-team.github.io/wiki/resources/</guid>
+    <description><![CDATA[ 참고 자료 모음입니다. Glossary — 영한 용어집 Notation — 수학 표기법 컨벤션 Paper Notes — #paper 태그가 붙은 전체 논문 노트 목록 . ]]></description>
+    <pubDate>Fri, 20 Mar 2026 07:18:24 GMT</pubDate>
+  </item><item>
     <title>Algebra</title>
-    <link>https://pacl-wiki.github.io/foundations/algebra/</link>
-    <guid>https://pacl-wiki.github.io/foundations/algebra/</guid>
+    <link>https://pacl-team.github.io/wiki/foundations/algebra/</link>
+    <guid>https://pacl-team.github.io/wiki/foundations/algebra/</guid>
     <description><![CDATA[ 암호학의 기반이 되는 대수학 개념을 다룹니다. 주요 주제 군(Group), 환(Ring), 체(Field) 다항식 환 (Polynomial Rings) 선형대수 (Linear Algebra) . ]]></description>
     <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
   </item><item>
     <title>Cryptography</title>
-    <link>https://pacl-wiki.github.io/foundations/cryptography/</link>
-    <guid>https://pacl-wiki.github.io/foundations/cryptography/</guid>
+    <link>https://pacl-team.github.io/wiki/foundations/cryptography/</link>
+    <guid>https://pacl-team.github.io/wiki/foundations/cryptography/</guid>
     <description><![CDATA[ 고전 암호학의 기본 개념과 구성 요소를 다룹니다. ]]></description>
     <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
   </item><item>
     <title>Foundations</title>
-    <link>https://pacl-wiki.github.io/foundations/</link>
-    <guid>https://pacl-wiki.github.io/foundations/</guid>
+    <link>https://pacl-team.github.io/wiki/foundations/</link>
+    <guid>https://pacl-team.github.io/wiki/foundations/</guid>
     <description><![CDATA[ 암호학 연구를 위한 수학적·이론적 기초를 다룹니다. ]]></description>
     <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
   </item><item>
     <title>Number Theory</title>
-    <link>https://pacl-wiki.github.io/foundations/number-theory/</link>
-    <guid>https://pacl-wiki.github.io/foundations/number-theory/</guid>
+    <link>https://pacl-team.github.io/wiki/foundations/number-theory/</link>
+    <guid>https://pacl-team.github.io/wiki/foundations/number-theory/</guid>
     <description><![CDATA[ 암호학에서 활용되는 정수론 및 이산수학 개념을 다룹니다. ]]></description>
     <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
   </item><item>
     <title>Protocols</title>
-    <link>https://pacl-wiki.github.io/foundations/protocols/</link>
-    <guid>https://pacl-wiki.github.io/foundations/protocols/</guid>
+    <link>https://pacl-team.github.io/wiki/foundations/protocols/</link>
+    <guid>https://pacl-team.github.io/wiki/foundations/protocols/</guid>
     <description><![CDATA[ 암호학적 프로토콜의 기초를 다룹니다. 주요 주제 키 교환 (Key Exchange) 비밀 분산 (Secret Sharing) 망각 전송 (Oblivious Transfer) . ]]></description>
     <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
   </item><item>
     <title>Contributing Guide</title>
-    <link>https://pacl-wiki.github.io/guides/contributing</link>
-    <guid>https://pacl-wiki.github.io/guides/contributing</guid>
+    <link>https://pacl-team.github.io/wiki/guides/contributing</link>
+    <guid>https://pacl-team.github.io/wiki/guides/contributing</guid>
     <description><![CDATA[ PACL Wiki에 기여하는 방법을 안내합니다. 문서 유형 위키에는 두 가지 유형의 문서가 있습니다: Concept (개념 정리) 특정 주제에 대한 개념 설명, 정의, 예시 등을 담는 문서입니다. 각 주제 폴더 루트에 위치합니다. ]]></description>
     <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
   </item><item>
     <title>Guides</title>
-    <link>https://pacl-wiki.github.io/guides/</link>
-    <guid>https://pacl-wiki.github.io/guides/</guid>
+    <link>https://pacl-team.github.io/wiki/guides/</link>
+    <guid>https://pacl-team.github.io/wiki/guides/</guid>
     <description><![CDATA[ PACL 연구실 생활과 연구를 위한 실용 가이드입니다. ]]></description>
     <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
   </item><item>
     <title>Learning Paths</title>
-    <link>https://pacl-wiki.github.io/guides/learning-paths</link>
-    <guid>https://pacl-wiki.github.io/guides/learning-paths</guid>
+    <link>https://pacl-team.github.io/wiki/guides/learning-paths</link>
+    <guid>https://pacl-team.github.io/wiki/guides/learning-paths</guid>
     <description><![CDATA[ 연구 분야별 학습 경로입니다. 각 분야에 입문하기 위한 추천 순서를 안내합니다. ]]></description>
     <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
   </item><item>
     <title>Onboarding</title>
-    <link>https://pacl-wiki.github.io/guides/onboarding</link>
-    <guid>https://pacl-wiki.github.io/guides/onboarding</guid>
+    <link>https://pacl-team.github.io/wiki/guides/onboarding</link>
+    <guid>https://pacl-team.github.io/wiki/guides/onboarding</guid>
     <description><![CDATA[ PACL 연구실 신입생을 위한 가이드입니다. 환경 세팅 TODO: 연구실 환경 세팅 가이드 작성 첫 주에 할 일 TODO: 신입생 체크리스트 작성 . ]]></description>
-    <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
-  </item><item>
-    <title>Reading List</title>
-    <link>https://pacl-wiki.github.io/guides/reading-list</link>
-    <guid>https://pacl-wiki.github.io/guides/reading-list</guid>
-    <description><![CDATA[ PACL 연구에 필요한 필독 논문과 교재 목록입니다. 교재 TODO: 분야별 추천 교재 작성 필독 논문 TODO: 분야별 필독 논문 목록 작성 . ]]></description>
     <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
   </item>
     </channel>

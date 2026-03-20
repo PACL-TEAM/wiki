@@ -40,9 +40,9 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.LinksHeader({
       links: {
-        Tags: "/tags",
-        Concepts: "/tags/concept",
-        Papers: "/tags/paper",
+        Tags: "tags/index",
+        Concepts: "tags/concept/index",
+        Papers: "tags/paper/index",
       },
     }),
     Component.Explorer({
@@ -96,9 +96,9 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.LinksHeader({
       links: {
-        Tags: "/tags",
-        Concepts: "/tags/concept",
-        Papers: "/tags/paper",
+        Tags: "tags/index",
+        Concepts: "tags/concept/index",
+        Papers: "tags/paper/index",
       },
     }),
     Component.Explorer({
