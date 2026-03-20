@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>PACL Wiki</title>
+      <link>https://pacl-wiki.github.io</link>
+      <description>최근 10 건 on PACL Wiki</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Contributing Guide</title>
+    <link>https://pacl-wiki.github.io/guides/contributing</link>
+    <guid>https://pacl-wiki.github.io/guides/contributing</guid>
+    <description><![CDATA[ PACL Wiki에 기여하는 방법을 안내합니다. 문서 유형 위키에는 두 가지 유형의 문서가 있습니다: Concept (개념 정리) 특정 주제에 대한 개념 설명, 정의, 예시 등을 담는 문서입니다. 각 주제 폴더 루트에 위치합니다. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 06:57:23 GMT</pubDate>
+  </item><item>
+    <title>Number Theory</title>
+    <link>https://pacl-wiki.github.io/foundations/number-theory/</link>
+    <guid>https://pacl-wiki.github.io/foundations/number-theory/</guid>
+    <description><![CDATA[ 암호학에서 활용되는 정수론 및 이산수학 개념을 다룹니다. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 06:57:12 GMT</pubDate>
+  </item><item>
+    <title>Tools</title>
+    <link>https://pacl-wiki.github.io/guides/tools</link>
+    <guid>https://pacl-wiki.github.io/guides/tools</guid>
+    <description><![CDATA[ 연구에 활용하는 도구 및 소프트웨어 가이드입니다. 수학/암호 SageMath Magma 문서 작성 LaTeX 사용법 &amp; 템플릿 개발 도구 Git 워크플로 Python 환경 관리 SCA 장비 SCA — Tools 섹션 참고 . ]]></description>
+    <pubDate>Fri, 20 Mar 2026 06:57:10 GMT</pubDate>
+  </item><item>
+    <title>Learning Paths</title>
+    <link>https://pacl-wiki.github.io/guides/learning-paths</link>
+    <guid>https://pacl-wiki.github.io/guides/learning-paths</guid>
+    <description><![CDATA[ 연구 분야별 학습 경로입니다. 각 분야에 입문하기 위한 추천 순서를 안내합니다. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 06:57:08 GMT</pubDate>
+  </item><item>
+    <title>Quantum</title>
+    <link>https://pacl-wiki.github.io/quantum/</link>
+    <guid>https://pacl-wiki.github.io/quantum/</guid>
+    <description><![CDATA[ 양자 정보 및 양자 통신 보안을 다룹니다. 양자를 직접 활용하는 기술로, 양자 컴퓨터에 대항하는 PQC와는 구분됩니다. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 06:56:31 GMT</pubDate>
+  </item><item>
+    <title>Security</title>
+    <link>https://pacl-wiki.github.io/security/</link>
+    <guid>https://pacl-wiki.github.io/security/</guid>
+    <description><![CDATA[ 응용 보안 분야를 다룹니다. Concepts V2X V2X 프로토콜 및 인증 CAN bus 보안 침입 탐지 시스템 (IDS) 자율주행 위협 모델 AI Security AI 모델 워터마킹 Adversarial Attacks &amp; Defenses Papers. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 06:56:29 GMT</pubDate>
+  </item><item>
+    <title>PET</title>
+    <link>https://pacl-wiki.github.io/pet/</link>
+    <guid>https://pacl-wiki.github.io/pet/</guid>
+    <description><![CDATA[ 프라이버시 강화 기술(Privacy Enhancing Technologies)을 다룹니다. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 06:56:27 GMT</pubDate>
+  </item><item>
+    <title>PQC</title>
+    <link>https://pacl-wiki.github.io/pqc/</link>
+    <guid>https://pacl-wiki.github.io/pqc/</guid>
+    <description><![CDATA[ 양자 컴퓨터의 위협에 대응하는 양자내성암호(Post-Quantum Cryptography)를 다룹니다. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 06:56:23 GMT</pubDate>
+  </item><item>
+    <title>SCA</title>
+    <link>https://pacl-wiki.github.io/sca/</link>
+    <guid>https://pacl-wiki.github.io/sca/</guid>
+    <description><![CDATA[ 부채널 분석(Side-Channel Analysis)은 PACL의 핵심 연구 분야입니다. 암호 알고리즘의 물리적 구현에서 발생하는 부채널 정보(전력, 전자파, 타이밍 등)를 분석하여 비밀 정보를 추출하거나, 이를 방어하는 대응책을 연구합니다. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 06:56:18 GMT</pubDate>
+  </item><item>
+    <title>Papers</title>
+    <link>https://pacl-wiki.github.io/quantum/papers/</link>
+    <guid>https://pacl-wiki.github.io/quantum/papers/</guid>
+    <description><![CDATA[ Quantum 관련 논문 리딩 노트 모음입니다. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 06:55:57 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

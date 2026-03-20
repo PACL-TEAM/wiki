@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "PAC Lab": "https://sites.google.com/view/pacl/",
+      GitHub: "https://github.com/pacl-wiki",
     },
   }),
 }
@@ -38,7 +38,39 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.LinksHeader({
+      links: {
+        Tags: "/tags",
+        Concepts: "/tags/concept",
+        Papers: "/tags/paper",
+      },
+    }),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        const order: Record<string, number> = {
+          foundations: 0,
+          sca: 1,
+          pqc: 2,
+          pet: 3,
+          security: 4,
+          quantum: 5,
+          guides: 6,
+          resources: 7,
+        }
+        if (a.isFolder && b.isFolder) {
+          const aOrder = order[a.slugSegment] ?? 99
+          const bOrder = order[b.slugSegment] ?? 99
+          if (aOrder !== bOrder) return aOrder - bOrder
+        }
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        return a.isFolder ? -1 : 1
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +94,39 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.LinksHeader({
+      links: {
+        Tags: "/tags",
+        Concepts: "/tags/concept",
+        Papers: "/tags/paper",
+      },
+    }),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        const order: Record<string, number> = {
+          foundations: 0,
+          sca: 1,
+          pqc: 2,
+          pet: 3,
+          security: 4,
+          quantum: 5,
+          guides: 6,
+          resources: 7,
+        }
+        if (a.isFolder && b.isFolder) {
+          const aOrder = order[a.slugSegment] ?? 99
+          const bOrder = order[b.slugSegment] ?? 99
+          if (aOrder !== bOrder) return aOrder - bOrder
+        }
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        return a.isFolder ? -1 : 1
+      },
+    }),
   ],
   right: [],
 }
