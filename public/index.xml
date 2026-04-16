@@ -6,6 +6,12 @@
       <description>최근 10 건 on PACL Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Miller-Rabin primality test</title>
+    <link>https://pacl-team.github.io/wiki/foundations/number-theory/miller-rabin</link>
+    <guid>https://pacl-team.github.io/wiki/foundations/number-theory/miller-rabin</guid>
+    <description><![CDATA[ 밀러-라빈 소수판별법은 입력으로 주어진 수가 소수인지 아닌지 확률적으로 판별하는 알고리즘입니다. 1. 수학적 배경 1-1. 페르마의 소정리 소수 p와 p의 배수가 아닌 정수 a에 대하여 다음 식이 성립합니다. ]]></description>
+    <pubDate>Wed, 15 Apr 2026 16:47:40 GMT</pubDate>
+  </item><item>
     <title>Resources</title>
     <link>https://pacl-team.github.io/wiki/resources/</link>
     <guid>https://pacl-team.github.io/wiki/resources/</guid>
@@ -58,12 +64,6 @@
     <link>https://pacl-team.github.io/wiki/guides/learning-paths</link>
     <guid>https://pacl-team.github.io/wiki/guides/learning-paths</guid>
     <description><![CDATA[ 연구 분야별 학습 경로입니다. 각 분야에 입문하기 위한 추천 순서를 안내합니다. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
-  </item><item>
-    <title>Onboarding</title>
-    <link>https://pacl-team.github.io/wiki/guides/onboarding</link>
-    <guid>https://pacl-team.github.io/wiki/guides/onboarding</guid>
-    <description><![CDATA[ PACL 연구실 신입생을 위한 가이드입니다. 환경 세팅 TODO: 연구실 환경 세팅 가이드 작성 첫 주에 할 일 TODO: 신입생 체크리스트 작성 . ]]></description>
     <pubDate>Fri, 20 Mar 2026 07:01:06 GMT</pubDate>
   </item>
     </channel>
